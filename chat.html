@@ -1,109 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brother Printer Showcase</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        .showcase {
-            min-height: 400px;
-            background: url('brother-printer.jpg') no-repeat center center/cover;
-            text-align: center;
-            color: #fff;
-        }
-        .showcase h1 {
-            margin-top: 100px;
-            font-size: 55px;
-            margin-bottom: 10px;
-        }
-        .showcase p {
-            font-size: 20px;
-        }
-        .content {
-            padding: 20px;
-            background: #fff;
-        }
-        .content img {
-            float: left;
-            margin-right: 20px;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Brother Printer</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="showcase">
-        <div class="container">
-            <h1>Brother HL-L2350DW</h1>
-            <p>Reliable, affordable monochrome laser printer for home or small office use.</p>
-        </div>
-    </section>
-    <section class="content container">
-        <img src="brother-printer.jpg" alt="Brother Printer" width="300">
-        <h2>Product Features</h2>
-        <p>The Brother HL-L2350DW offers fast printing, wireless networking, and automatic duplex printing. It's perfect for busy homes or small offices looking for a reliable, affordable printer.</p>
-    </section>
-    <script type='text/javascript'>
-        function initEmbeddedMessaging() {
-            try {
-                embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'                
-                embeddedservice_bootstrap.init(
-                    '00DVB000001LGM9',
-                    'MessagingforInAppAndWebEmbedded',
-                    'https://bicusa--dev.sandbox.my.site.com/ESWMessagingforInAppAndWe1728073958989',
-                    {
-                        scrt2URL: 'https://bicusa--dev.sandbox.my.salesforce-scrt.com'
-                    }
-                );
-            } catch (err) {
-                console.error('Error loading Embedded Messaging: ', err);
-            }
-        };
-    </script>
-    <script type='text/javascript' src='https://bicusa--dev.sandbox.my.site.com/ESWMessagingforInAppAndWe1728073958989/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-</body>
-</html>
+<Html>
+   <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DVB000001LGM9',
+				'MessagingforInAppAndWebEmbedded',
+				'https://bicusa--dev.sandbox.my.site.com/ESWMessagingforInAppAndWe1728073958989',
+				{
+					scrt2URL: 'https://bicusa--dev.sandbox.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://bicusa--dev.sandbox.my.site.com/ESWMessagingforInAppAndWe1728073958989/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script> 
+</Html>
